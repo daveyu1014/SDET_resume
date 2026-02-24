@@ -1,10 +1,4 @@
 :root {
-  --primary: #111;
-  --secondary: #555;
-  --border: #e5e5e5;
-  --background: #fafafa;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -94,3 +88,23 @@ ul {
   font-size: 0.8rem;
   color: var(--secondary);
 }
+
+.btn {
+  background: transparent;
+  border: 1px solid var(--primary);
+  padding: 0.4rem 0.8rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--primary);
+  margin-left: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  background: var(--primary);
+  color: var(--background);
+}
+
+  
