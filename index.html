@@ -1,148 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Dave Yu - Software Development Engineer in Test specializing in Automation, Security Testing, and Performance Engineering." />
-  <meta name="author" content="Dave Yu" />
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dave Yu | SDET</title>
 
-  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Dave Yu - Software Development Engineer in Test specializing in Automation, Security, and Performance Engineering.">
+
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
-  <header class="container">
-    <h1>Dave Yu</h1>
-    <p class="subtitle">
-      Software Development Engineer in Test (SDET)  
-      <span>Automation · Security · Performance</span>
-    </p>
+<header class="navbar">
+  <div class="nav-container">
+    <div class="logo">Dave Yu</div>
 
-    <div class="contact">
-  <a href="mailto:daveyu1014@gmail.com">Email</a>
-  <a href="https://github.com/daveyu1014" target="_blank">GitHub</a>
-  <a href="https://www.linkedin.com/in/dawei-yu-76445020b/" target="_blank">LinkedIn</a>
+    <div class="nav-actions">
+      <button id="theme-toggle" class="toggle-btn">🌙</button>
+      <a href="./resume.pdf" class="primary-btn" download>Download CV</a>
+    </div>
+  </div>
+</header>
 
-  <button id="theme-toggle" class="btn">🌙 Dark</button>
-  <a href="resume.pdf" class="btn" download>⬇ Download PDF</a>
-</div>
-  </header>
+<section class="hero container">
+  <h1>
+    Software Development Engineer in Test
+  </h1>
+  <p class="hero-sub">
+    Building reliable automation frameworks, integrating quality into CI/CD,
+    and securing scalable SaaS systems.
+  </p>
 
-  <main class="container">
+  <div class="hero-links">
+    <a href="mailto:daveyu1014@gmail.com">Email</a>
+    <a href="https://github.com/daveyu1014" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/dawei-yu-76445020b/">LinkedIn</a>
+  </div>
+</section>
 
-    <section>
-      <h2>Professional Summary</h2>
-      <p>
-        Quality Engineer with experience in SaaS environments, specializing in
-        automation framework design, security validation, and performance testing.
-        Focused on integrating quality engineering into CI/CD pipelines and reducing
-        technical risk through engineering-driven practices.
-      </p>
-    </section>
+<section class="container section">
+  <h2>Core Expertise</h2>
 
-    <section>
-      <h2>Technical Skills</h2>
+  <div class="card-grid">
+    <div class="card">
+      <h3>Automation Engineering</h3>
+      <p>UI & API automation framework design using Selenium and Python.</p>
+    </div>
 
-      <div class="grid">
-        <div>
-          <h3>Languages</h3>
-          <p>Python, JavaScript, SQL</p>
-        </div>
+    <div class="card">
+      <h3>Security Testing</h3>
+      <p>Injection vulnerability detection using OWASP ZAP within secure SDLC.</p>
+    </div>
 
-        <div>
-          <h3>Automation</h3>
-          <p>Selenium, API Automation, Pytest</p>
-        </div>
+    <div class="card">
+      <h3>Performance Engineering</h3>
+      <p>Load, stress, and stability testing with JMeter to validate scalability.</p>
+    </div>
 
-        <div>
-          <h3>Security Testing</h3>
-          <p>OWASP ZAP, Injection Testing</p>
-        </div>
+    <div class="card">
+      <h3>CI/CD Integration</h3>
+      <p>Automated test execution integrated into continuous delivery pipelines.</p>
+    </div>
+  </div>
+</section>
 
-        <div>
-          <h3>Performance Testing</h3>
-          <p>Apache JMeter (Load / Stress / Soak)</p>
-        </div>
+<section class="container section">
+  <h2>Professional Experience</h2>
 
-        <div>
-          <h3>CI/CD</h3>
-          <p>GitHub Actions, Jenkins</p>
-        </div>
+  <div class="experience-card">
+    <h3>Quality Engineer / SDET</h3>
+    <span>SaaS MDM Product · 2022 – Present</span>
+    <ul>
+      <li>Designed modular UI & API automation frameworks.</li>
+      <li>Integrated automated tests into CI/CD pipelines.</li>
+      <li>Conducted security validation and performance testing.</li>
+      <li>Led root cause analysis for production defects.</li>
+    </ul>
+  </div>
+</section>
 
-        <div>
-          <h3>Tools</h3>
-          <p>Git, Linux, Postman, MySQL</p>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2>Experience</h2>
-
-      <div class="job">
-        <h3>Quality Engineer / SDET</h3>
-        <span class="meta">SaaS MDM Product | 2022 – Present</span>
-        <ul>
-          <li>Designed and maintained UI & API automation frameworks using Selenium.</li>
-          <li>Integrated automated testing into CI/CD pipelines to support continuous delivery.</li>
-          <li>Conducted security testing using OWASP ZAP to identify injection vulnerabilities.</li>
-          <li>Performed load, stress, and stability testing using JMeter.</li>
-          <li>Led root cause analysis (RCA) for production defects.</li>
-        </ul>
-      </div>
-
-      <div class="job">
-        <h3>Operations & Team Leadership</h3>
-        <span class="meta">Hospitality Industry | Australia & Taiwan</span>
-        <ul>
-          <li>Improved SOP efficiency and reduced operational errors in high-volume environments.</li>
-          <li>Led cross-functional coordination and resource allocation.</li>
-          <li>Developed strong problem-solving and systems-thinking mindset.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section>
-      <h2>Projects</h2>
-
-      <div class="project">
-        <h3>Automation Framework Design</h3>
-        <p>
-          Designed modular UI/API automation framework with reusable components,
-          improving regression testing efficiency and maintainability.
-        </p>
-      </div>
-
-      <div class="project">
-        <h3>Performance Testing Implementation</h3>
-        <p>
-          Built JMeter test plans for API and web load testing, analyzing response time,
-          TPS, and system bottlenecks.
-        </p>
-      </div>
-    </section>
-
-    <section>
-      <h2>Education</h2>
-      <p>Bachelor of Information Management</p>
-    </section>
-
-  </main>
-
-  <footer class="container footer">
-    <p>© 2026 Dave Yu</p>
-  </footer>
+<footer class="footer">
+  © 2026 Dave Yu
+</footer>
 
 <script>
   const toggleBtn = document.getElementById("theme-toggle");
   const body = document.body;
 
-  // Load saved theme
   if (localStorage.getItem("theme") === "dark") {
     body.classList.add("dark");
-    toggleBtn.textContent = "☀ Light";
+    toggleBtn.textContent = "☀";
   }
 
   toggleBtn.addEventListener("click", () => {
@@ -150,14 +98,13 @@
 
     if (body.classList.contains("dark")) {
       localStorage.setItem("theme", "dark");
-      toggleBtn.textContent = "☀ Light";
+      toggleBtn.textContent = "☀";
     } else {
       localStorage.setItem("theme", "light");
-      toggleBtn.textContent = "🌙 Dark";
+      toggleBtn.textContent = "🌙";
     }
   });
 </script>
 
-  
 </body>
 </html>
